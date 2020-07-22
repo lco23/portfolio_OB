@@ -1,0 +1,74 @@
+.player-wrapper{
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.react-player{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.titrePres{
+    font-weight: bold ;
+    font-size: 25px;
+    color: rgb(180, 180, 180);
+}
+
+.paragraphe1, .paragraphe2{
+    font-size: 1em;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -8%;
+}
+
+.parentCard{
+    display: flex;
+    
+}
+
+.expertise{
+    font-size: 20px;
+    text-align: center;
+}
+
+.design{
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 4%;
+    padding-bottom: 60px;
+}
+
+.web {
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 4%;
+    padding-bottom: 60px;
+}
+
+.des, .dev{
+    margin-top: -46px;
+}
+
+@media screen and (max-width: 500px){
+
+.video{
+    margin-top: -21px;
+}
+
+.parentCard{
+    display: contents;
+    
+}
+
+.expertise{
+    font-size: 17px;
+}
+/* .design, .web{ */
+    /* margin-bottom: 50px; */
+/* } */
+
+.des, .dev{
+    margin-bottom: 60px;
+}
+
+}
