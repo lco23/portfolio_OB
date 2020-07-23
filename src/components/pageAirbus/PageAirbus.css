@@ -1,0 +1,53 @@
+.titreAirbusHelicopters{
+    font-size: 25px;
+    color: rgb(180, 180, 180);
+    margin-right: 55%;
+    margin-bottom: 5%;
+    margin-top: -6%;
+}
+
+.imageAh01{
+    border-radius: 7px;
+    width: 100%;
+}
+
+.textePresentation{
+    font-size: 1em;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.trait{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 500px){
+
+    .imageAh01{
+        margin-top: 15px;
+    }
+
+    .textePresentation{
+        font-size: 1em;
+        text-align: justify;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .trait{
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    .design, .web{
+        width: 70%;
+    }
+
+    .retour{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+}

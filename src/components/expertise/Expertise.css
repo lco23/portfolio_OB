@@ -1,0 +1,23 @@
+
+.paragraphe{
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 10px;
+    padding: 3%;
+    margin-top: 60px;
+}
+
+.paragrapheParticulier{
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 10px;
+    padding: 3%;
+    margin-top: 120px;
+}
+
+.titrePresPara{
+    font-weight: bold ;
+    font-size: 25px;
+    color: rgb(180, 180, 180);
+    margin-top: 0%;
+}
+
+

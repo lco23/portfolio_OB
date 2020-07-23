@@ -26,9 +26,11 @@ const Navbar = () => {
         <span></span>
 
         <ul id="menu" onClick={()=>setActive(false)}>
-          {/* <li><Link to='/'>Formulaire</Link></li> */}
           <li><Link to='/'>Accueil</Link></li>
+          <li><Link to='/expertise'>Expertise</Link></li> 
           <li><Link to='/realisations'>Réalisations</Link></li> 
+          <li><Link to='/contact'>Contact</Link></li> 
+
         </ul>
     
       </div>
