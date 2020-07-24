@@ -16,6 +16,7 @@ import aerojones from './images/aerojones.jpg'
 function Design() {
     return (
         <div>
+            <p className="paragraphe3">
             <p className="titreDesign">Projets Design</p>
             <div className="L1">
                 <div className="pageDesign">
@@ -72,7 +73,7 @@ function Design() {
                 </div>
                 
             </div>
-
+        </p>
         </div>
     )
 }

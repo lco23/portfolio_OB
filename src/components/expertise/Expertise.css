@@ -1,23 +1,53 @@
 
 .paragraphe{
-    border: 1px solid rgb(228, 228, 228);
-    border-radius: 10px;
-    padding: 3%;
+    border-radius: 7px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
     margin-top: 60px;
+    background-color: rgb(222, 238, 238);
 }
 
 .paragrapheParticulier{
-    border: 1px solid rgb(228, 228, 228);
-    border-radius: 10px;
-    padding: 3%;
+    border-radius: 7px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
     margin-top: 120px;
+    background-color: rgb(222, 238, 238);    
 }
 
 .titrePresPara{
     font-weight: bold ;
     font-size: 25px;
-    color: rgb(180, 180, 180);
+    color: rgb(255, 255, 255);
     margin-top: 0%;
+    text-shadow: 0px 0px 2px  rgb(85, 85, 85);
+}
+
+@media screen and (max-width: 500px){
+
+    .paragrapheParticulier{
+        margin-top: 40px;
+        margin-left:-20%;
+        margin-right:-20%;
+        padding-top: 6%;
+        padding-bottom: 3%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .paragraphe{
+        margin-left:-20%;
+        margin-right:-20%;
+        padding-top: 6%;
+        padding-bottom: 3%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
 }
 
 
