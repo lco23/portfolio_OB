@@ -5,6 +5,9 @@ function Expertise() {
     return (
         <div>
             <p className="paragraphe1">
+                <div className="titreExpertise">
+                    <p>Expertise</p>
+                </div>
                 <div className="paragrapheParticulier">
                     <p className="titrePresPara">Design industriel</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 

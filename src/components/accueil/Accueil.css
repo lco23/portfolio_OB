@@ -10,7 +10,7 @@
     margin-top: 10%;
 }
 
-.paragraphe1{
+.paragrapheAcceuil{
     font-size: 1em;
     text-align: justify;
     margin-left: 20%;
@@ -32,14 +32,14 @@
     border: 1px solid rgb(180, 180, 180);
     border-radius: 4%;
     padding-bottom: 60px;
-    width:70%;
+    width:75%;
 }
 
 .web {
     border: 1px solid rgb(180, 180, 180);
     border-radius: 4%;
     padding-bottom: 60px;
-    width:70%;
+    width:75%;
 
 }
 
@@ -86,6 +86,13 @@
 .logo{
     width:90%;
     margin: auto;
+}
+.paragrapheAcceuil{
+    font-size: 1em;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -8%;
 }
 
 }

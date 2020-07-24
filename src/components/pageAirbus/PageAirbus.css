@@ -25,6 +25,10 @@
 
 @media screen and (max-width: 500px){
 
+    .titreAirbusHelicopters{ 
+        width: 400px;
+    }
+
     .imageAh01{
         margin-top: 15px;
     }

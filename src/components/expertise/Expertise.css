@@ -1,26 +1,44 @@
 
+.titreExpertise{
+    margin-top: 10%;
+    font-size: 25px;
+    color: rgb(180, 180, 180);
+    margin-right: 75%;
+    margin-bottom: 7%;
+}
+
+.paragraphe1{ 
+    font-size: 1em;
+    text-align: justify;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: -8%;
+}
+
 .paragraphe{
-    border-radius: 7px;
+    border-radius: 3px;
     padding-top: 2%;
     padding-bottom: 1%;
     padding-left: 2%;
     padding-right: 2%;
     margin-top: 60px;
-    background-color: rgb(222, 238, 238);
+    color: rgb(146, 146, 146);
+    background-color: #3a3a3a;
 }
 
 .paragrapheParticulier{
-    border-radius: 7px;
+    border-radius: 3px;
     padding-top: 2%;
     padding-bottom: 1%;
     padding-left: 2%;
     padding-right: 2%;
     margin-top: 120px;
-    background-color: rgb(222, 238, 238);    
+    color: rgb(146, 146, 146);
+    background-color:#3a3a3a;  
 }
 
 .titrePresPara{
-    font-weight: bold ;
+    font-style: italic ;
     font-size: 25px;
     color: rgb(255, 255, 255);
     margin-top: 0%;
@@ -47,6 +65,11 @@
         padding-left: 8%;
         padding-right: 8%;
     }
+
+    .titreExpertise{
+        font-size: 25px;
+        margin-left: -20%;
+}
 
 }
 

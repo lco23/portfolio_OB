@@ -39,12 +39,13 @@ export default class Contact extends Component {
 
   render() {
     return (
+    <p className="paragrapheContact">
+        <div className="titreContact">
+            <p>Contact</p>
+        </div>
       <section id="contact">
         <div className="rowSection-head">
-          <div className="tenColumns">
-            <p className="lead">
-              Contact
-              </p>
+                
             <form onSubmit={this.handleSubmit.bind(this)}>
               <input
                 type="text"
@@ -52,7 +53,7 @@ export default class Contact extends Component {
                 value={this.state.name}
                 className="text-primary"
                 onChange={this.handleChange.bind(this, 'name')}
-                placeholder="Name"
+                placeholder="Nom"
               />
               <input
                 type="email"
@@ -60,22 +61,22 @@ export default class Contact extends Component {
                 value={this.state.email}
                 className="text-primary"
                 onChange={this.handleChange.bind(this, 'email')}
-                placeholder="Enter email"
+                placeholder="Email"
               />
               <textarea
                 name="message"
                 className="text-primary"
-                placeholder="Write your message"
+                placeholder="Message"
                 value={this.state.message}
                 onChange={this.handleChange.bind(this, 'message')}
               />
-              <button name="Send">Send</button>
+              <button className="send">Send</button>
             </form>
-          </div>
         </div>
 
 
       </section>
+    </p>
     );
   }
 }
